@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #eee;
+    height: auto;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+img {
+    display: block;
+    width: 100%;
+}
+#landing {
+    display: flex;
+    height: 100%;
+}
+#landing-text {
+    height: 650px;
+    text-align: center;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    flex: 0 1 40vw;
+}
+#landing-image {
+    background: url(https://source.unsplash.com/De8wMYoSSBc);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+    text-transform: capitalize;
+}
+#landing-text h2 {
+    color: #888;
+}
+.btn {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    color: #333;
+    padding: 1rem 2rem;
+}
+.btn:hover {
+    background-color: rgb(223, 223, 223);
+}
+#header {
+    background:#333;
+    text-align: center;
+    padding: 1.5rem;
+    color: #fff;
+}
+#header h2 {
+    border-left: dashed 1px #fff;
+    border-right: dashed 1px #fff;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.caption {
+    text-align: center;
+    padding: 15px;
+}
+footer {
+    text-align: center;
+    color: #333;
+    padding: 2rem 1rem;
+    margin: auto;
+}
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
